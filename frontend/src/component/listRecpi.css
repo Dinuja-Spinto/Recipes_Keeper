@@ -1,0 +1,106 @@
+.ListItemContainer{
+    
+    margin-top: 1%;
+    margin-left: 25%;
+    width: 50%;   
+    padding: 25px;
+    
+}
+
+.Header{
+    color:#ffffff;
+    font-size:35px;
+}
+
+.ilistTitle{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size:25px;
+    color:#ffffff;
+    
+}
+
+.ClickTitle{
+    border: 1px solid rgba(216, 218, 216, 0.76);
+    border-top: 1%;
+    border-radius: 10px;
+    background-color:#5f616077;
+    cursor: pointer;
+}
+
+.ClickTitle:hover
+{
+	background-color:#f0f1897a;
+	
+}
+
+.ilistRecipeMain{
+    font-family: Arvo;
+     
+}
+
+
+.editBut
+{
+	width:90px;
+	padding:10px;
+	border-radius:5px;
+	outline: 10px;
+	background-color:#003ee9;
+    margin-top: 8px;
+	border:1px solid rgb(0, 81, 255);
+	color:#ffffff;
+	font-size:14px;
+	cursor: pointer;
+}
+
+.editBut:hover
+{
+	background-color:#040277;
+	width:90px;
+}
+
+.delBut
+{
+	width:90px;
+	padding:10px;
+	border-radius:5px;
+    margin-left: 15px;
+    margin-top: 8px;
+	outline: 10px;
+	background-color:#e90000;
+	border:1px solid red;
+	color:#ffffff;
+	font-size:14px;
+	cursor: pointer;
+}
+
+.delBut:hover
+{
+	background-color:#9e0a0a;
+	width:90px;
+}
+
+.btns{
+    margin-left: 60%;
+}
+
+#AddNewBut
+{
+	width:200px;
+	padding:10px;
+	border-radius:5px;
+	outline: 10px;
+	background-color:#037c03;
+	border:1px solid rgb(45, 202, 6);
+	color:#ffffff;
+	font-size:20px;
+	cursor: pointer;
+}
+
+#AddNewBut:hover
+{
+	background-color:#036942;
+	width:200px;
+}

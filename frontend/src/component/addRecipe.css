@@ -1,0 +1,98 @@
+ code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+#newRecipe
+{
+	width:100%;
+	background-color:#fefffe8a;
+	opacity:0.9;
+	padding:10px 0px;
+	border-radius:15px;
+	text-align: center;
+}
+
+.newRecipe-form
+{
+	text-align:center;
+	margin:60px 250px;
+	color:rgb(0, 0, 0);
+	font-size:130%;
+    
+}
+
+.inputBox
+{
+	width:600px;
+	padding:10px;
+	border-radius:8px;
+	font-size:90%;
+	background-color:#fefffe8a;
+	
+}
+.inputBox::placeholder {
+	color: rgb(10, 0, 0);
+  }
+
+.inputText
+{
+	width:600px;
+	padding:10px;
+	border-radius:8px;
+	font-size:100%;
+	background-color:#fefffe8a;
+}
+.inputText::placeholder {
+	color: rgb(10, 0, 0);
+  }
+
+#saveBut
+{
+	width:120px;
+	padding:10px;
+	border-radius:5px;
+	outline: 10px;
+	background-color:#037c03;
+	border:1px solid rgb(45, 202, 6);
+	color:#ffffff;
+	font-size:20px;
+	cursor: pointer;
+}
+
+#saveBut:hover
+{
+	background-color:#036942;
+	width:120px;
+}
+
+
+#CloseBut
+{
+	width:120px;
+	padding:10px;
+	border-radius:5px;
+    margin-left: 30px;
+	outline: 10px;
+	background-color:#940000;
+	border:1px solid red;
+	color:#ffffff;
+	font-size:20px;
+	cursor: pointer;
+}
+
+#CloseBut:hover
+{
+	background-color:#9e0a0a;
+	width:120px;
+}
+
+
+.backStyle
+{
+    background-image:url(../images/addNew.jpg);
+    background-size: cover;   
+    height: 100%;    
+    overflow: hidden;
+	text-align: center;
+}
